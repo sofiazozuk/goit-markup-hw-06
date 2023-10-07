@@ -897,7 +897,6 @@ margin-bottom: 40px;
   max-width: 356px;
 }
 .our-team-t {
-  max-width: 768px;
   padding: 0;
 }
 .our-team {
@@ -1050,6 +1049,7 @@ margin-bottom: 40px;
   display: flex;
   justify-content: start;
   align-items: baseline;
+  flex-wrap: nowrap
 }
 .footer-logo-desc {
   margin-bottom: 0;
@@ -1065,9 +1065,6 @@ margin-bottom: 40px;
 .footer-icon-decr {
   display: inline-block;
 }
-.label-div-subscribe {
-  
-}
 .form-subscribe {
   display: flex;
   gap: 24px;
@@ -1075,6 +1072,7 @@ margin-bottom: 40px;
 .button-subscribe {
   margin: 0px;
 }
+
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .main-div {
     background-position: center;
