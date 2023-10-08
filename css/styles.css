@@ -402,6 +402,7 @@ background-color: transparent;
 }
 .footer-complex-div {
 margin-bottom: 72px;
+
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -411,10 +412,12 @@ margin-bottom: 72px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  
   align-items: center;
   display: block;
   margin-bottom: 16px;
+  justify-content: center;
+  text-align: center;
 }
 .logo-second-footer {
   color: #f4f4fd;
@@ -481,7 +484,8 @@ margin-bottom: 72px;
 }
 
 .label-div-subscribe {
-  text-align: center;
+  text-align: start;
+  
 }
 .label-subscribe {
   font-family: Roboto;
@@ -495,7 +499,8 @@ margin-bottom: 72px;
 }
 .form-subscribe {
 display: flex;
- gap: 24px;
+ margin-bottom: 16px;
+ flex-direction: column;
 }
  
 .input-label-subscribe {
@@ -921,6 +926,7 @@ color:rgba(46, 47, 66, 0.40) ;
   align-items: baseline;
   padding-left: 108px;
   padding-right: 108px;
+  flex-direction: inherit;
   }
 .footer-logo-desc {
   margin-bottom: 0;
@@ -945,6 +951,7 @@ color:rgba(46, 47, 66, 0.40) ;
 .form-subscribe {
   display: flex;
   gap: 24px;
+  flex-direction: row;
 }
 .button-subscribe {
   margin: 0px;
@@ -1068,6 +1075,7 @@ color:rgba(46, 47, 66, 0.40) ;
 .form-subscribe {
   display: flex;
   gap: 24px;
+  flex-direction: row;
 }
 .button-subscribe {
   margin: 0px;
