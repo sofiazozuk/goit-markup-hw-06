@@ -975,7 +975,9 @@ margin-bottom: 40px;
 .label-div-subscribe {
   text-align: start;
 }
-
+.label-subscribe {
+  text-align:start ;
+  }
 .footer-icon-decr {
   display: inline-block;
 }
@@ -1127,6 +1129,9 @@ margin-bottom: 40px;
   display: flex;
   gap: 24px;
   flex-direction: row;
+}
+.label-subscribe {
+text-align:start ;
 }
 .button-subscribe {
   margin: 0px;
