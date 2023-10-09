@@ -1088,7 +1088,7 @@ margin-bottom: 40px;
 .main-div {
   background-position: center;
   background-size: cover;
-  padding: 72px 72px;
+  padding: 188px 188px;
   background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/main-bg-laptop-min.jpg);
   max-width: 100%;
 }
