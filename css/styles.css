@@ -524,7 +524,7 @@ display: flex;
 color: #FFF;
 }
 .button-subscribe {
-  display: inline-flex;
+  display: flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
@@ -542,6 +542,7 @@ color: #FFF;
   min-width: 165px;
   height: 40px; 
   cursor: pointer;
+  margin:0 auto;
 }
 .modal-send-icon {
  fill: #fff;
@@ -1001,14 +1002,12 @@ margin-bottom: 40px;
 /* Laptop */
 @media screen and (min-width: 1158px) {
   .container {
-  max-width: 100%; 
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px; 
   }
-  .header-inner {
-    max-height: 72px;
-    }
+  
+    
     .main-logo {
       padding: 24px 0px 24px 16px;
     }
